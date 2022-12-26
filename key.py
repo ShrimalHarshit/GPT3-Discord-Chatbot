@@ -1,1 +1,1 @@
-key = "openai-api-key"
+key = "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"
