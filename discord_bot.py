@@ -8,7 +8,7 @@ from config import token, status, desc
 from key import key
 from chatbot import Bot
 
-client = commands.Bot(command_prefix="BOT_NAME")
+client = commands.Bot(command_prefix="ChatBot")
 openai.api_key = key
 global chatbot
 chatbot = Bot(header=desc)
